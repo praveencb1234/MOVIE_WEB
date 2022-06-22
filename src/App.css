@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body{
+  overflow-y: auto;
+  overflow-x: auto;
+  position: fixed;
+  background-color: darkblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.title{
+  position: relative;
+margin-bottom: 300px;
+  background-color:orange;
+  color:black;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+font-weight: bold;
+
 }
 
-.App-link {
-  color: #61dafb;
+  
+
+.top{
+  position: fixed;
+  justify-content: space-between;
+  top:0px;
+height: 40px;
+width: 100%;
+
+  background-color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .icon{
+
+    position: fixed;
+    height: 35px;
+    width: 30px;
+    left: 300px;
   }
-  to {
-    transform: rotate(360deg);
+  .icons{
+
+    position: fixed;
+    height: 35px;
+    width: 30px;
+    right: 350px;
   }
-}
+  .head{
+position: fixed;
+    height:35px;
+    
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    left: 350px;
+    margin-top: 1px;
+  }
+
+  .searchbutton{
+justify-content: center;
+justify-items: center;
+align-content: center;
+    position: fixed;
+    display: flex;
+  }
+  .input{border-top-color: yellow;
+    border-bottom-color: rgb(9, 218, 233);
+    border-left-color:lawngreen;
+    border-right-color: rgb(237, 12, 136);
+    border-width:2px ;
+    border-radius: 20px;
+    margin-top: 9.8px;
+font-weight: bold;
+    background-color: aqua;
+    margin-left: 650px;
+    border-style: groove;
+  }
+  input:hover{
+text-shadow: 10px;
+box-shadow: 10px;
+    color: black;
+    background-color: yellowgreen;
+  }
+  .search-icon{
+margin-top: 9.8px;
+    margin-left: 53.7rem;
+    color:darkblue;
+  }
+  .search-icon:hover{
+    
+    
+transform: scale(1.1);
+    cursor: pointer}
+    .homes:hover{ color: blue;
+      transform: scale(1.1);
+      cursor: pointer;
+      align-items: center;
+     
+    }
